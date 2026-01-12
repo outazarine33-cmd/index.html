@@ -44,10 +44,17 @@ body {
 }
 
 .product img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
+  width: 100%;       /* تعمر الكادر ديال الصفحة */
+  max-width: 500px;  /* أقصى عرض باش ما توليش كبيرة بزاف */
+  height: auto;      /* يحافظ على النسبة ويخليها متناسبة */
+  object-fit: contain; /* الصورة كلها تبان بلا تقطيع */
+  border-radius: 12px; /* اختيار شخصي: يقدر يعطي شكل راقي */
+  margin: 20px 0;    /* مسافة من النص فوق وتحت */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* باش الصورة تبان فالوسط */
 }
+
 
 
 .product-content {
