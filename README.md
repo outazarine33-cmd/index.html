@@ -1,158 +1,160 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>منتجاتنا</title>
-  <style>
-    /* ----- تصميم عام للصفحة ----- */
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      direction: rtl; /* النص بالعربية */
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>جيل طبيعي لتثبيت الشعر</title>
 
-    /* ----- رأس الصفحة ----- */
-    header {
-      background: #25D366; /* لون واتساب أخضر */
-      color: #fff;
-      text-align: center;
-      padding: 25px 15px;
-      font-size: 28px;
-      font-weight: bold;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #0f0f0f, #1a1a1a);
+  color: #f5f5f5;
+  direction: rtl;
+}
 
-    /* ----- حاوية المنتجات ----- */
-    .products-container {
-      max-width: 1000px;
-      margin: 30px auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* شبكة متجاوبة */
-      gap: 20px;
-      padding: 0 15px;
-    }
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
 
-    /* ----- بطاقة كل منتوج ----- */
-    .product-card {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      transition: transform 0.2s;
-    }
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
 
-    /* تأثير عند المرور على البطاقة */
-    .product-card:hover {
-      transform: translateY(-5px);
-    }
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+  color: #cfcfcf;
+}
 
-    /* صورة المنتوج */
-    .product-card img {
-      width: 100%;
-      height: 250px;
-      object-fit: cover;
-    }
+/* ===== Product Section ===== */
+.product {
+  max-width: 900px;
+  margin: 60px auto;
+  background: #111;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
 
-    /* معلومات المنتوج */
-    .product-info {
-      padding: 20px;
-      text-align: center;
-    }
+.product img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
 
-    .product-info h2 {
-      margin: 0 0 10px;
-      color: #222;
-      font-size: 22px;
-    }
+.product-content {
+  padding: 40px;
+}
 
-    .product-info p {
-      color: #555;
-      font-size: 16px;
-      line-height: 1.5;
-    }
+.product-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
 
-    /* زر التواصل واتساب */
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 25px;
-      background: #25D366;
-      color: #fff;
-      font-size: 18px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background 0.2s;
-    }
+.product-content .subtitle {
+  color: #8fd19e;
+  margin-bottom: 25px;
+  font-size: 16px;
+}
 
-    .btn:hover {
-      background: #1ebe5d;
-    }
+/* ===== Description ===== */
+.product-content p {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #ddd;
+}
 
-    /* تذييل الصفحة */
-    footer {
-      text-align: center;
-      margin: 40px 0 20px;
-      color: #777;
-      font-size: 14px;
-    }
-  </style>
+/* ===== Benefits ===== */
+.benefits {
+  margin-top: 30px;
+}
+
+.benefits div {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* ===== Button ===== */
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 15px 35px;
+  background: #25D366;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+  font-size: 14px;
+}
+</style>
 </head>
+
 <body>
 
-<header>منتجاتنا</header>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <h1>ماشي غير جيل… هاد أسلوب عناية</h1>
+  <p>
+  أغلب منتجات تثبيت الشعر كتخدم اليوم وتضر غداً.
+  احنا صنعنا جيل واعي، كيحترم شعرك قبل ما يفرض عليه الشكل.
+  </p>
+</section>
 
-<div class="products-container">
+<!-- ===== PRODUCT ===== -->
+<section class="product">
 
-  <!-- ----- منتوج 1 ----- -->
-  <div class="product-card">
-    <img src="images/gel1.jpg" alt="جيل تثبيت الشعر">
-    <div class="product-info">
-      <h2>جيل تثبيت الشعر</h2>
-      <p>
-        جيل قوي لتثبيت الشعر، يعطي شكل أنيق وثبات طويل بدون ما يخلي الشعر قاصح.
-        مناسب للاستعمال اليومي ويعطي لمعة خفيفة.
-      </p>
-      <a class="btn" href="https://wa.me/691444558" target="_blank">تواصل عبر واتساب</a>
+  <img src="images/gel1.jpg" alt="جيل تثبيت الشعر">
+
+  <div class="product-content">
+    <h2>جيل تثبيت الشعر الطبيعي</h2>
+    <div class="subtitle">تثبيت ذكي بلا مواد كيميائية قاصحة</div>
+
+    <p>
+    معظم الجيلات فالسوق معمّرة بالكحول والمواد الكيميائية
+    اللي كتعطيك شكل مؤقت ولكن مع الوقت كتجفف الشعر وكتضعف الجذور.<br><br>
+
+    هاد الجيل تصاوب بعقلية مختلفة:
+    تثبيت يدوم، بدون ما يعاقب شعرك.
+    </p>
+
+    <div class="benefits">
+      <div>✔ تثبيت قوي ومرن بدون تصلب</div>
+      <div>✔ بلا كحول وبلا مواد مؤذية</div>
+      <div>✔ لمعان طبيعي ماشي دهني</div>
+      <div>✔ صالح للاستعمال اليومي</div>
     </div>
+
+    <a class="btn" href="https://wa.me/212691444558" target="_blank">
+      اطلبه الآن عبر واتساب
+    </a>
+
   </div>
+</section>
 
-  <!-- ----- منتوج 2 ----- -->
-  <div class="product-card">
-    <img src="images/gel2.jpg" alt="شامبو مغذي">
-    <div class="product-info">
-      <h2>شامبو مغذي للشعر</h2>
-      <p>
-        شامبو طبيعي يغذي فروة الرأس ويعطي لمعان وقوة للشعر. خفيف وكيصلح لجميع أنواع الشعر.
-      </p>
-      <a class="btn" href="https://wa.me/212691444558" target="_blank">تواصل عبر واتساب</a>
-    </div>
-  </div>
-
-  <!-- ----- منتوج 3 ----- -->
-  <div class="product-card">
-    <img src="images/gel3.jpg" alt="بلسم مرطب">
-    <div class="product-info">
-      <h2>بلسم مرطب</h2>
-      <p>
-        بلسم مرطب للشعر الجاف والتالف. كيرطب الشعر بعمق ويخليه ناعم وسهل التسريح.
-      </p>
-      <a class="btn" href="https://wa.me/212600000000" target="_blank">تواصل عبر واتساب</a>
-    </div>
-  </div>
-
-  <!-- ----- تقدر تزيد أي منتوج جديد بنفس الطريقة ----- -->
-
+<div class="footer">
+  منتوج موجّه للناس اللي وعات أن العناية ماشي رفاهية.
 </div>
-
-<footer>
-  للطلب أو الاستفسار، كليكي على الزر وغادي تهضر معنا مباشرة فواتساب.
-</footer>
 
 </body>
 </html>
+
 
