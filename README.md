@@ -165,7 +165,7 @@
   </div>
 
   <!-- صف تحت فيه زوج منتجات جنب بعض -->
-  <div class="product-row" style="display: flex; gap: 20px; margin-top: 25px; flex-wrap: wrap; justify-content: center;">
+<div class="product-card" style="flex: 1 1 200px; max-width: 250px; animation: fadeUp 1.2s ease forwards; animation-delay: 0.3s;">
 
     <!-- المنتج الثاني -->
     <div class="product-card" style="flex: 1 1 200px; max-width: 250px;">
@@ -186,7 +186,7 @@
     </div>
 
     <!-- المنتج الثالث -->
-    <div class="product-card" style="flex: 1 1 200px; max-width: 250px;">
+<div class="product-card" style="flex: 1 1 200px; max-width: 250px; animation: fadeUp 1.2s ease forwards; animation-delay: 0.3s;">
       <img src="wax.jpg" alt="واكس الشعر" class="product-image" />
       <div class="title">واكس الشعر</div>
       <div class="desc">
