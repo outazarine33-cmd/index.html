@@ -161,27 +161,7 @@
           اطلب الآن عبر واتساب
         </a>
       </div>
-
-<div class="container">
-
-  <div class="brand">Urban Hold</div>
-  <div class="subtitle">ثبات راقي. حضور قوي.</div>
-
-  <!-- المنتج الأول -->
-  <div class="product-card">
-    <img src="gel.jpg" alt="جيل تثبيت الشعر" class="product-image" />
-    <div class="title">جيل تثبيت الشعر</div>
-    <div class="desc">
-      تركيبة مدروسة بعناية لتمنحك ثباتًا قويًا ولمسة طبيعية، بدون قساوة أو آثار دهنية.
-    </div>
-    <ul class="features">
-      <li>✔ ثبات طويل طوال اليوم</li>
-      <li>✔ ملمس طبيعي بدون قساوة</li>
-      <li>✔ مناسب للاستعمال اليومي</li>
-    </ul>
-    <div class="price">35 درهم</div>
-    <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب جل تثبيت الشعر" target="_blank">
-      اطلب الآن عبر واتساب
+اطلب الآن عبر واتساب
     </a>
   </div>
 
