@@ -78,7 +78,7 @@
     <div class="logo">Black Grip</div>
 
     <!-- عوض الرابط بصورة المنتوج ديالك -->
-    <img src="https://via.placeholder.com/400x400" alt="جيل تثبيت الشعر" class="product-image" />
+<img src="https://i.ibb.co/xxxx/product.jpg" alt="جيل تثبيت الشعر" class="product-image" />
 
     <div class="title">جيل تثبيت الشعر</div>
 
