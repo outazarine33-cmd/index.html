@@ -166,6 +166,43 @@
 
 </div> <!-- نهاية container -->
 
+<div class="product-row">
+  <!-- المنتج الثاني -->
+  <div class="product-card">
+    <img src="spray.jpg" alt="سبراي تثبيت الشعر" class="product-image" />
+    <div class="title">سبراي تثبيت الشعر</div>
+    <div class="desc">
+      سبراي خفيف يعطيك ثبات متوسط ولمسة ناعمة للشعر مع حماية من الرطوبة.
+    </div>
+    <ul class="features">
+      <li>✔ ثبات متوسط وطبيعي</li>
+      <li>✔ حماية من الرطوبة</li>
+      <li>✔ مثالي للشعر القصير والطويل</li>
+    </ul>
+    <div class="price">40 درهم</div>
+    <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب سبراي تثبيت الشعر" target="_blank">
+      اطلب الآن عبر واتساب
+    </a>
+  </div>
+
+  <!-- المنتج الثالث -->
+  <div class="product-card">
+    <img src="wax.jpg" alt="واكس الشعر" class="product-image" />
+    <div class="title">واكس الشعر</div>
+    <div class="desc">
+      واكس غني لتشكيل الشعر بأشكال متعددة مع لمسة نهائية لامعة طبيعية.
+    </div>
+    <ul class="features">
+      <li>✔ تشكيل سهل ومرن</li>
+      <li>✔ لمسة لامعة طبيعية</li>
+      <li>✔ مثالي للشعر القصير والطويل</li>
+    </ul>
+    <div class="price">45 درهم</div>
+    <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب واكس الشعر" target="_blank">
+      اطلب الآن عبر واتساب
+    </a>
+  </div>
+</div>
 
       <div class="note">توصيل لجميع المدن المغربية</div>
 
