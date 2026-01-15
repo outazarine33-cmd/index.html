@@ -11,7 +11,36 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
+  /* إزالة أي خط تحت النص نهائياً */
+.card,
+.card *{
+  text-decoration: none !important;
+  border: none !important;
 }
+
+/* العناوين */
+.card h3{
+  font-family:'Playfair Display', serif;
+  font-style: italic;
+  font-size:22px;
+  font-weight:500;
+  letter-spacing:0.03em;
+  color:#111;
+  margin-bottom:14px;
+}
+
+/* الوصف */
+.card p{
+  font-family:'Inter', sans-serif;
+  font-style: italic;
+  font-size:15px;
+  line-height:1.8;
+  color:#333;
+  text-decoration:none !important;
+}
+
+}
+
 
 body{
   font-family:'Inter',sans-serif;
