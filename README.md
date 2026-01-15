@@ -47,14 +47,6 @@ body{
   color:#111;
 }
 
-/* ===== HEADER ===== */
-header{
-  height:100vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  background:url("hero.jpg") center/cover no-repeat;
-}
 
 .brand-logo{
   font-family:'Playfair Display',serif;
@@ -156,10 +148,6 @@ a{
 </head>
 
 <body>
-
-<header>
-  <div class="brand-logo">OUTAZARINE</div>
-</header>
 
 <section>
   <div class="products">
