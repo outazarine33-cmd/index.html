@@ -92,7 +92,7 @@ section{
 .card img{
   width:100%;
   height:380px;
-  object-fit:cover;
+  object-fit:contain;
   display:block;
 }
 
@@ -141,7 +141,13 @@ a{
   }
 
   .card img{
-    height:300px;
+   .card img{
+  width: 100%;
+  height: 300px;      /* هنا كتحدد الطول اللي بغيت */
+  object-fit: cover; /* كيقص الزائد بلا ما يشوّه الصورة */
+  display: block;
+}
+
   }
 }
 </style>
@@ -158,9 +164,11 @@ a{
       <div class="card-content">
         <h3>Gel de fixation forte</h3>
         <p>
-        منتوج تثبيت قوي كيعطيك شعر قاصح ولامع بحال الفازك بالماء،
-        كيثبت التسريحة طول النهار بلا أثر دهني،
-        ومناسب للاستعمال اليومي بطريقة سهلة ونظيفة.
+       A strong-hold styling product that gives your hair a firm, shiny look similar to a water-based pomade.
+Keeps your hairstyle in place all day without leaving any greasy residue
+and is suitable for daily use with a clean and easy application
+
+إ.
         </p>
       </div>
       <div class="whatsapp-bar">اطلب الآن عبر واتساب</div>
